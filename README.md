@@ -7,8 +7,8 @@ Hi, This basic RTL Flutter Application
 ### pubspec.yaml 
 
 dependencies:
-----flutter_localizations:
--------sdk: flutter
+`flutter_localizations:
+-------sdk: flutter`
 
 Then **save** file & **Run** `flutter pub get`
 
@@ -16,12 +16,12 @@ Then **save** file & **Run** `flutter pub get`
 
 In main.dart file
 under **MaterialApp** add this code
-      localizationsDelegates: [
-      - -GlobalMaterialLocalizations.delegate,
-      - -GlobalWidgetsLocalizations.delegate,
+      `localizationsDelegates: [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
       ],
       supportedLocales: [
       - -Locale("ar", "SA"), 
-      ],
+      ],`
 
 ##
