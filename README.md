@@ -24,4 +24,6 @@ under **MaterialApp** add this code
       - -Locale("ar", "SA"), 
       ],`
 
-##
+## Test 
+Just download
+Then run `flutter run`
